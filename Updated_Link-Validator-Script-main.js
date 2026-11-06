@@ -14,7 +14,7 @@ let REPORT_ALL_MODE = true; // default: include all discovered links/items in re
 const VERBOSE_RETRY_LOGS = false; // suppress noisy rate-limit retry chatter in the console
 
 function printUsage() {
-  console.log('Usage: node Link-Validator-Script-main.js [options]');
+  console.log('Usage: node Updated_Link-Validator-Script-main.js [options]');
   console.log('');
   console.log('Options:');
   console.log('  --file <csvFile>      CSV file path/name (searches project root, then input_Data/ for relative names)');
@@ -30,11 +30,11 @@ function printUsage() {
   console.log('  -h, --help            Show this help');
   console.log('');
   console.log('Examples:');
-  console.log('  node Link-Validator-Script-main.js');
-  console.log('  node Link-Validator-Script-main.js --file UAT_Regression.csv');
-  console.log('  node Link-Validator-Script-main.js --url https://example.com/page');
-  console.log('  node Link-Validator-Script-main.js --mobile --url=https://example.com/page');
-  console.log('  node Link-Validator-Script-main.js --unified --file=url.csv');
+  console.log('  node Updated_Link-Validator-Script-main.js');
+  console.log('  node Updated_Link-Validator-Script-main.js --file UAT_Regression.csv');
+  console.log('  node Updated_Link-Validator-Script-main.js --url https://example.com/page');
+  console.log('  node Updated_Link-Validator-Script-main.js --mobile --url=https://example.com/page');
+  console.log('  node Updated_Link-Validator-Script-main.js --unified --file=url.csv');
 }
 
 function parseCliArgs(argv) {

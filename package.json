@@ -2,7 +2,7 @@
     "name":  "nw_link_validator",
     "version":  "1.0.0",
     "description":  "",
-    "main":  "Link-Validator-Script-main.js",
+    "main":  "Updated_Link-Validator-Script-main.js",
     "scripts":  {
                     "test":  "echo \"Error: no test specified\" \u0026\u0026 exit 1",
                     "link-validate":  "node Updated_Link-Validator-Script-main.js"
