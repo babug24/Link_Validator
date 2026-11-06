@@ -8,7 +8,7 @@ on:
         required: false
         default: url-temp.csv
       mode:
-        description: Run mode: desktop, mobile, unified
+        description: 'Run mode: desktop, mobile, unified'
         required: false
         default: unified
   # Uncomment to run automatically (UTC).
