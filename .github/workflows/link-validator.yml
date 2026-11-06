@@ -1,6 +1,6 @@
 name: Link Validator
 
-on:
+'on':
   workflow_dispatch:
     inputs:
       csv_file:
